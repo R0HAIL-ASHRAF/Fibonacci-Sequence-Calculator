@@ -1,17 +1,7 @@
                           ---DICRETE STRUCTURES---  
                         ----SHOW & TELL ACTIVITY----    
-
-                          ---GROUP INTRODUCTION---
-
-      | ROHAIL ASHRAF                   BSCS24090
-      | AHSEN ALI                       BSCS24056
-      | 
-      |
-      |
-      |__________________________________________________
-
             
-                              ---AGENDA---
+                                ---AGENDA---
     1. Introduction to Fibonacci Sequence,  it’s  revelation and applications.
     2. Fibonacci  Calculator,  it’s  Iterative   and  Recursive  approach,  and  their 
        contiguous comparison.
@@ -21,14 +11,14 @@
     5. Conclusions.
             
 
-                    ---Fibonacci Sequence Calculator---
+                       ---Fibonacci Sequence Calculator---
 
     A Fibonacci Sequence Calculator is a tool used to calculate Fibonacci numbers. The
     Fibonacci sequence is a series of numbers where each number is the sum of the  two 
     preceding ones, usually starting with 0 and 1. The  sequence goes like this: 0, 1, 
     1, 2, 3, 5, 8, 13, 21, and so on.
 
-                             ---APPROACHES---
+                               ---APPROACHES---
     1. Recursive Approach
        The recursive approach is the most straightforward  way  to  calculate Fibonacci
        numbers. It involves defining  a  function  that  calls itself  to calculate the 
