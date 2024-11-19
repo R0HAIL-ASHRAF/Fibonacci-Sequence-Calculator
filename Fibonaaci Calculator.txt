@@ -1,0 +1,101 @@
+                          ---DICRETE STRUCTURES---  
+                        ----SHOW & TELL ACTIVITY----    
+
+                          ---GROUP INTRODUCTION---
+
+      | ROHAIL ASHRAF                   BSCS24090
+      | AHSEN ALI                       BSCS24056
+      | 
+      |
+      |
+      |__________________________________________________
+
+            
+                              ---AGENDA---
+    1. Introduction to Fibonacci Sequence,  it’s  revelation and applications.
+    2. Fibonacci  Calculator,  it’s  Iterative   and  Recursive  approach,  and  their 
+       contiguous comparison.
+    3. Advantages & Disadvantages of both approaches. Their  Time  Complexities,  best
+       approach etc.
+    4. Real life Applications of Fibonacci Calculator 
+    5. Conclusions.
+            
+
+                    ---Fibonacci Sequence Calculator---
+
+    A Fibonacci Sequence Calculator is a tool used to calculate Fibonacci numbers. The
+    Fibonacci sequence is a series of numbers where each number is the sum of the  two 
+    preceding ones, usually starting with 0 and 1. The  sequence goes like this: 0, 1, 
+    1, 2, 3, 5, 8, 13, 21, and so on.
+
+                             ---APPROACHES---
+    1. Recursive Approach
+       The recursive approach is the most straightforward  way  to  calculate Fibonacci
+       numbers. It involves defining  a  function  that  calls itself  to calculate the 
+       Fibonacci number.
+
+       Explanation:
+       Base Cases: The first two Fibonacci numbers are defined as 
+
+                   𝐹(0) = 0 and 𝐹(1) = 1.
+
+       Recursive Case: For 𝑛 ≥ 2, the Fibonacci number is calculated as 
+
+                   𝐹(𝑛) = 𝐹 (𝑛−1) + 𝐹(𝑛−2).
+
+    2. Iterative Approach
+       The iterative approach uses a loop to calculate Fibonacci numbers iteratively.
+
+       Explanation:
+       Initialization: Start with the first two Fibonacci numbers, 
+               𝑎 = 0  and  
+               𝑏 = 1.
+
+       Iteration: Use a loop to calculate subsequent Fibonacci numbers  by summing  the 
+       previous two numbers and updating the variables accordingly.
+
+      
+
+                             ---REAL LIFE APPLICATIONS---
+                             
+    1. Fibonacci Retracement: Traders use Fibonacci retracement levels to identify potential
+       support and resistance levels in stock prices. This helps in making informed  trading 
+       decisions by predicting potential price reversals.
+
+ 
+    2.Growth Patterns: In biology, researchers use  the  Fibonacci sequence to  study growth 
+      patterns in plants and animals. This includes analyzing the arrangement of leaves, the
+      branching of trees, and the patterns of pine cones and flower petals.
+
+
+    3.Design and Aesthetics: Architects and artists use  the  Fibonacci  sequence  to  create
+      aesthetically pleasing designs. The golden ratio,  derived from the Fibonacci sequence, 
+      is used to achieve balance and harmony in structures and artworks.
+
+
+    4.Algorithm Optimization: In  computer science,  Fibonacci numbers are used in algorithms
+      and data  structures. Fibonacci  heaps, for instance,  are used in network optimization
+      algorithms due to their efficient merging properties.
+
+    5.Recursive Algorithms: Fibonacci  sequences   help  in  understanding  and  implementing 
+      recursive algorithms, which are fundamental in computer programming.
+
+
+    6.Compositional Structures:  Musicians use the  Fibonacci  sequence  to  structure  their 
+      compositions. The timing of notes and  the organization of musical phrases often follow 
+      Fibonacci ratios to create harmonious and natural-sounding music.
+
+
+    7.Modeling Population Growth: Biologists  use  Fibonacci Sequences to model the growth of
+      populations under ideal conditions. This includes studying how populations  of  certain 
+      animals, like rabbits, grow over time.
+
+
+    8.Random Number Generation: Fibonacci sequences can be used in cryptographic  algorithms 
+      to generate pseudo-random numbers, enhancing the security of encrypted communications.
+
+    
+    9.Teaching Tool: Educators use Fibonacci calculators to teach mathematical concepts such
+      as sequences, recursion,  and  algorithmic  thinking. It helps students understand the
+      practical applications of mathematical theories.
+                            
