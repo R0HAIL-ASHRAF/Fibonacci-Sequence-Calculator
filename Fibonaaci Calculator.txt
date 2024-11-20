@@ -19,7 +19,7 @@
     1, 2, 3, 5, 8, 13, 21, and so on.
 
                                ---APPROACHES---
-    1. Recursive Approach
+    1. Recursive Approach:
        The recursive approach is the most straightforward  way  to  calculate Fibonacci
        numbers. It involves defining  a  function  that  calls itself  to calculate the 
        Fibonacci number.
@@ -32,6 +32,18 @@
        Recursive Case: For 𝑛 ≥ 2, the Fibonacci number is calculated as 
 
                    𝐹(𝑛) = 𝐹 (𝑛−1) + 𝐹(𝑛−2).
+        
+         Alogrithm: 
+         _______________________________________________________
+        |                                                       |
+        | procedure fibonacci(n: nonnegative integer)           |
+        |                                                       |
+        |  if n = 0then return 0                                |
+        |  else if n = 1 then return 1                          |
+        |  else return fibonacci(n − 1) + fibonacci(n − 2)      |
+        |  {output is fibonacci(n)}                             | 
+        |_______________________________________________________|
+
 
     2. Iterative Approach
        The iterative approach uses a loop to calculate Fibonacci numbers iteratively.
@@ -44,7 +56,55 @@
        Iteration: Use a loop to calculate subsequent Fibonacci numbers  by summing  the 
        previous two numbers and updating the variables accordingly.
 
-      
+       Alogrithm:
+       ___________________________________________________________
+      |                                                           |
+      |    procedure iterative fibonacci(n: nonnegative integer)  |
+      |                                                           |
+      |   if n = 0, then return 0                                 |
+      |   else                                                    |
+      |   x := 0                                                  |
+      |   y := 1                                                  |
+      |   for i := 1 to n−1                                       |
+      |   z := x +y                                               |
+      |   x := y                                                  |
+      |   y := z                                                  |
+      |                                                           |
+      |   return y                                                |
+      |   {output is the nth Fibonacci number}                    |
+      |___________________________________________________________|
+
+                          ---Advantages & Disadvantages---
+
+   • Recursive Method: 
+     1.Advantages:
+       o Elegant and Readable: Matches the mathematical definition, making it intuitive. 
+       o Modular Design: Code is simple for smaller inputs and easy to modify. 
+       o Optimization Potential: Can be improved with memoization for better efficiency.
+
+     2.Disadvantages:
+      o Inefficient Without Optimization: High time complexity (O(2^n)) without memoization,
+        leading to slow performance for large inputs. 
+      o High Memory Usage: Consumes more memory due to the call stack (O(n) space). 
+      o Risk of Stack Overflow: Large inputs can cause stack overflow errors.
+
+
+    • Iterative Method: 
+    1.Advantages:
+      o High Efficiency: Faster execution,  especially  for  large  inputs  due  to  reduced 
+        function call overhead. 
+      o Low Memory Usage: Uses constant space (O(1)) without additional stack memory. 
+      o Robust for Large Inputs: No risk of stack overflow,  making  it  suitable  for  high 
+        values of n.
+    2,Disadvantges:
+  
+      o Less Intuitive: Doesn’t match the natural  recursive  definition,  making  the  logic 
+        harder to follow. 
+      o Manual Optimization Required: Advanced  techniques   (like memoization) can be harder 
+        to implement. 
+      o Code Complexity for Complex Variants:  Implementing  complex  versions  may  increase
+        code complexity.    
+
 
                              ---REAL LIFE APPLICATIONS---
                              
