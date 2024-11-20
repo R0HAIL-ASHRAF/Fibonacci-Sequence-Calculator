@@ -96,7 +96,7 @@
       o Low Memory Usage: Uses constant space (O(1)) without additional stack memory. 
       o Robust for Large Inputs: No risk of stack overflow,  making  it  suitable  for  high 
         values of n.
-    2,Disadvantges:
+    2.Disadvantges:
   
       o Less Intuitive: Doesn’t match the natural  recursive  definition,  making  the  logic 
         harder to follow. 
