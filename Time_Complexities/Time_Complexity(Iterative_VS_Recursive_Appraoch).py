@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import time
 
-# Recursive Fibonacci function
+# Recursive Fibonacci function 
 # This function computes the n-th Fibonacci number using a simple recursive approach
 # Time complexity: O(2^n) because it makes two recursive calls for each value of n
 def recursive_fibonacci(n):
