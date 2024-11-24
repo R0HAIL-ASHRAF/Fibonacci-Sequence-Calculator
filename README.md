@@ -1,5 +1,5 @@
                                           ---DICRETE STRUCTURES---  
-                                       ----SHOW & TELL ACTIVITY----    
+                                        ----SHOW & TELL ACTIVITY----    
                                           ---GROUP INTRODUCTION---
 
                                   1. ROHAIL ASHRAF                   BSCS24090
