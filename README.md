@@ -1,6 +1,6 @@
                                           ---DICRETE STRUCTURES---  
                                         ----SHOW & TELL ACTIVITY----    
-                                          ---GROUP INTRODUCTION---
+                                          ---GROUP INTRODUCTION--- 
 
                                   1. ROHAIL ASHRAF                   BSCS24090
                                   2. AHSEN ALI                       BSCS24056
