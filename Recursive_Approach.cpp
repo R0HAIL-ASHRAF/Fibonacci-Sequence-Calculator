@@ -1,6 +1,6 @@
 #include <iostream> // Include the iostream library for input and output operations
 
-using namespace std; // Use the standard namespace to avoid typing 'std::' before standard functions
+using namespace std; 
 
 // Recursive function to compute the nth Fibonacci number
 int fibonacci_recursive(int n) {
