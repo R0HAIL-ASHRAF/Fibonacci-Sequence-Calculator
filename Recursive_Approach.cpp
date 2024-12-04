@@ -8,10 +8,10 @@ int fibonacci_recursive(int n) {
     if (n <= 0) return 0;
 
     // Base case: If the input n is 1, return 0 as the first Fibonacci number is 0
-    if (n == 1) return 0;
+    if (n == 1) return 1;
 
     // Base case: If the input n is 2, return 1 as the second Fibonacci number is 1
-    if (n == 2) return 1;
+    // if (n == 2) return 1;
 
     // Recursive case: Compute the nth Fibonacci number as the sum of the (n-1)th and (n-2)th Fibonacci numbers
     return fibonacci_recursive(n-1) + fibonacci_recursive(n-2);
